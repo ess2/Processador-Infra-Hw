@@ -1,0 +1,1327 @@
+|muxPC
+Out[0] <= Out[0].DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= Out[1].DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= Out[2].DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= Out[3].DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= Out[4].DB_MAX_OUTPUT_PORT_TYPE
+Out[5] <= Out[5].DB_MAX_OUTPUT_PORT_TYPE
+Out[6] <= Out[6].DB_MAX_OUTPUT_PORT_TYPE
+Out[7] <= Out[7].DB_MAX_OUTPUT_PORT_TYPE
+Out[8] <= Out[8].DB_MAX_OUTPUT_PORT_TYPE
+Out[9] <= Out[9].DB_MAX_OUTPUT_PORT_TYPE
+Out[10] <= Out[10].DB_MAX_OUTPUT_PORT_TYPE
+Out[11] <= Out[11].DB_MAX_OUTPUT_PORT_TYPE
+Out[12] <= Out[12].DB_MAX_OUTPUT_PORT_TYPE
+Out[13] <= Out[13].DB_MAX_OUTPUT_PORT_TYPE
+Out[14] <= Out[14].DB_MAX_OUTPUT_PORT_TYPE
+Out[15] <= Out[15].DB_MAX_OUTPUT_PORT_TYPE
+Out[16] <= Out[16].DB_MAX_OUTPUT_PORT_TYPE
+Out[17] <= Out[17].DB_MAX_OUTPUT_PORT_TYPE
+Out[18] <= Out[18].DB_MAX_OUTPUT_PORT_TYPE
+Out[19] <= Out[19].DB_MAX_OUTPUT_PORT_TYPE
+Out[20] <= Out[20].DB_MAX_OUTPUT_PORT_TYPE
+Out[21] <= Out[21].DB_MAX_OUTPUT_PORT_TYPE
+Out[22] <= Out[22].DB_MAX_OUTPUT_PORT_TYPE
+Out[23] <= Out[23].DB_MAX_OUTPUT_PORT_TYPE
+Out[24] <= Out[24].DB_MAX_OUTPUT_PORT_TYPE
+Out[25] <= Out[25].DB_MAX_OUTPUT_PORT_TYPE
+Out[26] <= Out[26].DB_MAX_OUTPUT_PORT_TYPE
+Out[27] <= Out[27].DB_MAX_OUTPUT_PORT_TYPE
+Out[28] <= Out[28].DB_MAX_OUTPUT_PORT_TYPE
+Out[29] <= Out[29].DB_MAX_OUTPUT_PORT_TYPE
+Out[30] <= Out[30].DB_MAX_OUTPUT_PORT_TYPE
+Out[31] <= Out[31].DB_MAX_OUTPUT_PORT_TYPE
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+IorD => IorD.IN32
+
+
+|muxPC|mux:func0
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func1
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func2
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func3
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func4
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func5
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func6
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func7
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func8
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func9
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func10
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func11
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func12
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func13
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func14
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func15
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func16
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func17
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func18
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func19
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func20
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func21
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func22
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func23
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func24
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func25
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func26
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func27
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func28
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func29
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func30
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|mux:func31
+Out <= A.DB_MAX_OUTPUT_PORT_TYPE
+A => Out.DATAIN
+B => ~NO_FANOUT~
+IorD => ~NO_FANOUT~
+
+
+|muxPC|Memoria:Mem
+Address[0] => Add4.IN64
+Address[0] => Add6.IN64
+Address[0] => LPM_RAM_DQ:MEM.ADDRESS[0]
+Address[0] => LPM_RAM_DQ:MEM_plus_Two.ADDRESS[0]
+Address[1] => Add4.IN63
+Address[1] => Add5.IN62
+Address[1] => Add6.IN63
+Address[1] => LPM_RAM_DQ:MEM.ADDRESS[1]
+Address[2] => Add4.IN62
+Address[2] => Add5.IN61
+Address[2] => Add6.IN62
+Address[2] => LPM_RAM_DQ:MEM.ADDRESS[2]
+Address[3] => Add4.IN61
+Address[3] => Add5.IN60
+Address[3] => Add6.IN61
+Address[3] => LPM_RAM_DQ:MEM.ADDRESS[3]
+Address[4] => Add4.IN60
+Address[4] => Add5.IN59
+Address[4] => Add6.IN60
+Address[4] => LPM_RAM_DQ:MEM.ADDRESS[4]
+Address[5] => Add4.IN59
+Address[5] => Add5.IN58
+Address[5] => Add6.IN59
+Address[5] => LPM_RAM_DQ:MEM.ADDRESS[5]
+Address[6] => Add4.IN58
+Address[6] => Add5.IN57
+Address[6] => Add6.IN58
+Address[6] => LPM_RAM_DQ:MEM.ADDRESS[6]
+Address[7] => Add4.IN57
+Address[7] => Add5.IN56
+Address[7] => Add6.IN57
+Address[7] => LPM_RAM_DQ:MEM.ADDRESS[7]
+Address[8] => ~NO_FANOUT~
+Address[9] => ~NO_FANOUT~
+Address[10] => ~NO_FANOUT~
+Address[11] => ~NO_FANOUT~
+Address[12] => ~NO_FANOUT~
+Address[13] => ~NO_FANOUT~
+Address[14] => ~NO_FANOUT~
+Address[15] => ~NO_FANOUT~
+Address[16] => ~NO_FANOUT~
+Address[17] => ~NO_FANOUT~
+Address[18] => ~NO_FANOUT~
+Address[19] => ~NO_FANOUT~
+Address[20] => ~NO_FANOUT~
+Address[21] => ~NO_FANOUT~
+Address[22] => ~NO_FANOUT~
+Address[23] => ~NO_FANOUT~
+Address[24] => ~NO_FANOUT~
+Address[25] => ~NO_FANOUT~
+Address[26] => ~NO_FANOUT~
+Address[27] => ~NO_FANOUT~
+Address[28] => ~NO_FANOUT~
+Address[29] => ~NO_FANOUT~
+Address[30] => ~NO_FANOUT~
+Address[31] => ~NO_FANOUT~
+Clock => LPM_RAM_DQ:MEM.INCLOCK
+Clock => LPM_RAM_DQ:MEM.OUTCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_One.INCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_One.OUTCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_Two.INCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_Two.OUTCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_Three.INCLOCK
+Clock => LPM_RAM_DQ:MEM_plus_Three.OUTCLOCK
+Wr => LPM_RAM_DQ:MEM.WE
+Wr => LPM_RAM_DQ:MEM_plus_One.WE
+Wr => LPM_RAM_DQ:MEM_plus_Two.WE
+Wr => LPM_RAM_DQ:MEM_plus_Three.WE
+Datain[0] => LPM_RAM_DQ:MEM_plus_Three.DATA[0]
+Datain[1] => LPM_RAM_DQ:MEM_plus_Three.DATA[1]
+Datain[2] => LPM_RAM_DQ:MEM_plus_Three.DATA[2]
+Datain[3] => LPM_RAM_DQ:MEM_plus_Three.DATA[3]
+Datain[4] => LPM_RAM_DQ:MEM_plus_Three.DATA[4]
+Datain[5] => LPM_RAM_DQ:MEM_plus_Three.DATA[5]
+Datain[6] => LPM_RAM_DQ:MEM_plus_Three.DATA[6]
+Datain[7] => LPM_RAM_DQ:MEM_plus_Three.DATA[7]
+Datain[8] => LPM_RAM_DQ:MEM_plus_Two.DATA[0]
+Datain[9] => LPM_RAM_DQ:MEM_plus_Two.DATA[1]
+Datain[10] => LPM_RAM_DQ:MEM_plus_Two.DATA[2]
+Datain[11] => LPM_RAM_DQ:MEM_plus_Two.DATA[3]
+Datain[12] => LPM_RAM_DQ:MEM_plus_Two.DATA[4]
+Datain[13] => LPM_RAM_DQ:MEM_plus_Two.DATA[5]
+Datain[14] => LPM_RAM_DQ:MEM_plus_Two.DATA[6]
+Datain[15] => LPM_RAM_DQ:MEM_plus_Two.DATA[7]
+Datain[16] => LPM_RAM_DQ:MEM_plus_One.DATA[0]
+Datain[17] => LPM_RAM_DQ:MEM_plus_One.DATA[1]
+Datain[18] => LPM_RAM_DQ:MEM_plus_One.DATA[2]
+Datain[19] => LPM_RAM_DQ:MEM_plus_One.DATA[3]
+Datain[20] => LPM_RAM_DQ:MEM_plus_One.DATA[4]
+Datain[21] => LPM_RAM_DQ:MEM_plus_One.DATA[5]
+Datain[22] => LPM_RAM_DQ:MEM_plus_One.DATA[6]
+Datain[23] => LPM_RAM_DQ:MEM_plus_One.DATA[7]
+Datain[24] => LPM_RAM_DQ:MEM.DATA[0]
+Datain[25] => LPM_RAM_DQ:MEM.DATA[1]
+Datain[26] => LPM_RAM_DQ:MEM.DATA[2]
+Datain[27] => LPM_RAM_DQ:MEM.DATA[3]
+Datain[28] => LPM_RAM_DQ:MEM.DATA[4]
+Datain[29] => LPM_RAM_DQ:MEM.DATA[5]
+Datain[30] => LPM_RAM_DQ:MEM.DATA[6]
+Datain[31] => LPM_RAM_DQ:MEM.DATA[7]
+Dataout[0] <= LPM_RAM_DQ:MEM_plus_Three.Q[0]
+Dataout[1] <= LPM_RAM_DQ:MEM_plus_Three.Q[1]
+Dataout[2] <= LPM_RAM_DQ:MEM_plus_Three.Q[2]
+Dataout[3] <= LPM_RAM_DQ:MEM_plus_Three.Q[3]
+Dataout[4] <= LPM_RAM_DQ:MEM_plus_Three.Q[4]
+Dataout[5] <= LPM_RAM_DQ:MEM_plus_Three.Q[5]
+Dataout[6] <= LPM_RAM_DQ:MEM_plus_Three.Q[6]
+Dataout[7] <= LPM_RAM_DQ:MEM_plus_Three.Q[7]
+Dataout[8] <= LPM_RAM_DQ:MEM_plus_Two.Q[0]
+Dataout[9] <= LPM_RAM_DQ:MEM_plus_Two.Q[1]
+Dataout[10] <= LPM_RAM_DQ:MEM_plus_Two.Q[2]
+Dataout[11] <= LPM_RAM_DQ:MEM_plus_Two.Q[3]
+Dataout[12] <= LPM_RAM_DQ:MEM_plus_Two.Q[4]
+Dataout[13] <= LPM_RAM_DQ:MEM_plus_Two.Q[5]
+Dataout[14] <= LPM_RAM_DQ:MEM_plus_Two.Q[6]
+Dataout[15] <= LPM_RAM_DQ:MEM_plus_Two.Q[7]
+Dataout[16] <= LPM_RAM_DQ:MEM_plus_One.Q[0]
+Dataout[17] <= LPM_RAM_DQ:MEM_plus_One.Q[1]
+Dataout[18] <= LPM_RAM_DQ:MEM_plus_One.Q[2]
+Dataout[19] <= LPM_RAM_DQ:MEM_plus_One.Q[3]
+Dataout[20] <= LPM_RAM_DQ:MEM_plus_One.Q[4]
+Dataout[21] <= LPM_RAM_DQ:MEM_plus_One.Q[5]
+Dataout[22] <= LPM_RAM_DQ:MEM_plus_One.Q[6]
+Dataout[23] <= LPM_RAM_DQ:MEM_plus_One.Q[7]
+Dataout[24] <= LPM_RAM_DQ:MEM.Q[0]
+Dataout[25] <= LPM_RAM_DQ:MEM.Q[1]
+Dataout[26] <= LPM_RAM_DQ:MEM.Q[2]
+Dataout[27] <= LPM_RAM_DQ:MEM.Q[3]
+Dataout[28] <= LPM_RAM_DQ:MEM.Q[4]
+Dataout[29] <= LPM_RAM_DQ:MEM.Q[5]
+Dataout[30] <= LPM_RAM_DQ:MEM.Q[6]
+Dataout[31] <= LPM_RAM_DQ:MEM.Q[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM
+data[0] => altram:sram.data[0]
+data[1] => altram:sram.data[1]
+data[2] => altram:sram.data[2]
+data[3] => altram:sram.data[3]
+data[4] => altram:sram.data[4]
+data[5] => altram:sram.data[5]
+data[6] => altram:sram.data[6]
+data[7] => altram:sram.data[7]
+address[0] => altram:sram.address[0]
+address[1] => altram:sram.address[1]
+address[2] => altram:sram.address[2]
+address[3] => altram:sram.address[3]
+address[4] => altram:sram.address[4]
+address[5] => altram:sram.address[5]
+address[6] => altram:sram.address[6]
+address[7] => altram:sram.address[7]
+inclock => altram:sram.clocki
+outclock => altram:sram.clocko
+we => altram:sram.we
+q[0] <= altram:sram.q[0]
+q[1] <= altram:sram.q[1]
+q[2] <= altram:sram.q[2]
+q[3] <= altram:sram.q[3]
+q[4] <= altram:sram.q[4]
+q[5] <= altram:sram.q[5]
+q[6] <= altram:sram.q[6]
+q[7] <= altram:sram.q[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM|altram:sram
+we => _.IN0
+data[0] => altsyncram:ram_block.data_a[0]
+data[1] => altsyncram:ram_block.data_a[1]
+data[2] => altsyncram:ram_block.data_a[2]
+data[3] => altsyncram:ram_block.data_a[3]
+data[4] => altsyncram:ram_block.data_a[4]
+data[5] => altsyncram:ram_block.data_a[5]
+data[6] => altsyncram:ram_block.data_a[6]
+data[7] => altsyncram:ram_block.data_a[7]
+address[0] => altsyncram:ram_block.address_a[0]
+address[1] => altsyncram:ram_block.address_a[1]
+address[2] => altsyncram:ram_block.address_a[2]
+address[3] => altsyncram:ram_block.address_a[3]
+address[4] => altsyncram:ram_block.address_a[4]
+address[5] => altsyncram:ram_block.address_a[5]
+address[6] => altsyncram:ram_block.address_a[6]
+address[7] => altsyncram:ram_block.address_a[7]
+clocki => altsyncram:ram_block.clock0
+clocko => altsyncram:ram_block.clock1
+be => _.IN1
+q[0] <= altsyncram:ram_block.q_a[0]
+q[1] <= altsyncram:ram_block.q_a[1]
+q[2] <= altsyncram:ram_block.q_a[2]
+q[3] <= altsyncram:ram_block.q_a[3]
+q[4] <= altsyncram:ram_block.q_a[4]
+q[5] <= altsyncram:ram_block.q_a[5]
+q[6] <= altsyncram:ram_block.q_a[6]
+q[7] <= altsyncram:ram_block.q_a[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM|altram:sram|altsyncram:ram_block
+wren_a => altsyncram_e1a1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_e1a1:auto_generated.data_a[0]
+data_a[1] => altsyncram_e1a1:auto_generated.data_a[1]
+data_a[2] => altsyncram_e1a1:auto_generated.data_a[2]
+data_a[3] => altsyncram_e1a1:auto_generated.data_a[3]
+data_a[4] => altsyncram_e1a1:auto_generated.data_a[4]
+data_a[5] => altsyncram_e1a1:auto_generated.data_a[5]
+data_a[6] => altsyncram_e1a1:auto_generated.data_a[6]
+data_a[7] => altsyncram_e1a1:auto_generated.data_a[7]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_e1a1:auto_generated.address_a[0]
+address_a[1] => altsyncram_e1a1:auto_generated.address_a[1]
+address_a[2] => altsyncram_e1a1:auto_generated.address_a[2]
+address_a[3] => altsyncram_e1a1:auto_generated.address_a[3]
+address_a[4] => altsyncram_e1a1:auto_generated.address_a[4]
+address_a[5] => altsyncram_e1a1:auto_generated.address_a[5]
+address_a[6] => altsyncram_e1a1:auto_generated.address_a[6]
+address_a[7] => altsyncram_e1a1:auto_generated.address_a[7]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_e1a1:auto_generated.clock0
+clock1 => altsyncram_e1a1:auto_generated.clock1
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_e1a1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_e1a1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_e1a1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_e1a1:auto_generated.q_a[3]
+q_a[4] <= altsyncram_e1a1:auto_generated.q_a[4]
+q_a[5] <= altsyncram_e1a1:auto_generated.q_a[5]
+q_a[6] <= altsyncram_e1a1:auto_generated.q_a[6]
+q_a[7] <= altsyncram_e1a1:auto_generated.q_a[7]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[0] => ram_block1a4.PORTAADDR
+address_a[0] => ram_block1a5.PORTAADDR
+address_a[0] => ram_block1a6.PORTAADDR
+address_a[0] => ram_block1a7.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[1] => ram_block1a4.PORTAADDR1
+address_a[1] => ram_block1a5.PORTAADDR1
+address_a[1] => ram_block1a6.PORTAADDR1
+address_a[1] => ram_block1a7.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[2] => ram_block1a4.PORTAADDR2
+address_a[2] => ram_block1a5.PORTAADDR2
+address_a[2] => ram_block1a6.PORTAADDR2
+address_a[2] => ram_block1a7.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[3] => ram_block1a4.PORTAADDR3
+address_a[3] => ram_block1a5.PORTAADDR3
+address_a[3] => ram_block1a6.PORTAADDR3
+address_a[3] => ram_block1a7.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+address_a[4] => ram_block1a4.PORTAADDR4
+address_a[4] => ram_block1a5.PORTAADDR4
+address_a[4] => ram_block1a6.PORTAADDR4
+address_a[4] => ram_block1a7.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[5] => ram_block1a1.PORTAADDR5
+address_a[5] => ram_block1a2.PORTAADDR5
+address_a[5] => ram_block1a3.PORTAADDR5
+address_a[5] => ram_block1a4.PORTAADDR5
+address_a[5] => ram_block1a5.PORTAADDR5
+address_a[5] => ram_block1a6.PORTAADDR5
+address_a[5] => ram_block1a7.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+address_a[6] => ram_block1a1.PORTAADDR6
+address_a[6] => ram_block1a2.PORTAADDR6
+address_a[6] => ram_block1a3.PORTAADDR6
+address_a[6] => ram_block1a4.PORTAADDR6
+address_a[6] => ram_block1a5.PORTAADDR6
+address_a[6] => ram_block1a6.PORTAADDR6
+address_a[6] => ram_block1a7.PORTAADDR6
+address_a[7] => ram_block1a0.PORTAADDR7
+address_a[7] => ram_block1a1.PORTAADDR7
+address_a[7] => ram_block1a2.PORTAADDR7
+address_a[7] => ram_block1a3.PORTAADDR7
+address_a[7] => ram_block1a4.PORTAADDR7
+address_a[7] => ram_block1a5.PORTAADDR7
+address_a[7] => ram_block1a6.PORTAADDR7
+address_a[7] => ram_block1a7.PORTAADDR7
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+clock0 => ram_block1a4.CLK0
+clock0 => ram_block1a5.CLK0
+clock0 => ram_block1a6.CLK0
+clock0 => ram_block1a7.CLK0
+clock1 => ram_block1a0.CLK1
+clock1 => ram_block1a1.CLK1
+clock1 => ram_block1a2.CLK1
+clock1 => ram_block1a3.CLK1
+clock1 => ram_block1a4.CLK1
+clock1 => ram_block1a5.CLK1
+clock1 => ram_block1a6.CLK1
+clock1 => ram_block1a7.CLK1
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+data_a[4] => ram_block1a4.PORTADATAIN
+data_a[5] => ram_block1a5.PORTADATAIN
+data_a[6] => ram_block1a6.PORTADATAIN
+data_a[7] => ram_block1a7.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+q_a[4] <= ram_block1a4.PORTADATAOUT
+q_a[5] <= ram_block1a5.PORTADATAOUT
+q_a[6] <= ram_block1a6.PORTADATAOUT
+q_a[7] <= ram_block1a7.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+wren_a => ram_block1a4.PORTAWE
+wren_a => ram_block1a5.PORTAWE
+wren_a => ram_block1a6.PORTAWE
+wren_a => ram_block1a7.PORTAWE
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_One
+data[0] => altram:sram.data[0]
+data[1] => altram:sram.data[1]
+data[2] => altram:sram.data[2]
+data[3] => altram:sram.data[3]
+data[4] => altram:sram.data[4]
+data[5] => altram:sram.data[5]
+data[6] => altram:sram.data[6]
+data[7] => altram:sram.data[7]
+address[0] => altram:sram.address[0]
+address[1] => altram:sram.address[1]
+address[2] => altram:sram.address[2]
+address[3] => altram:sram.address[3]
+address[4] => altram:sram.address[4]
+address[5] => altram:sram.address[5]
+address[6] => altram:sram.address[6]
+address[7] => altram:sram.address[7]
+inclock => altram:sram.clocki
+outclock => altram:sram.clocko
+we => altram:sram.we
+q[0] <= altram:sram.q[0]
+q[1] <= altram:sram.q[1]
+q[2] <= altram:sram.q[2]
+q[3] <= altram:sram.q[3]
+q[4] <= altram:sram.q[4]
+q[5] <= altram:sram.q[5]
+q[6] <= altram:sram.q[6]
+q[7] <= altram:sram.q[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_One|altram:sram
+we => _.IN0
+data[0] => altsyncram:ram_block.data_a[0]
+data[1] => altsyncram:ram_block.data_a[1]
+data[2] => altsyncram:ram_block.data_a[2]
+data[3] => altsyncram:ram_block.data_a[3]
+data[4] => altsyncram:ram_block.data_a[4]
+data[5] => altsyncram:ram_block.data_a[5]
+data[6] => altsyncram:ram_block.data_a[6]
+data[7] => altsyncram:ram_block.data_a[7]
+address[0] => altsyncram:ram_block.address_a[0]
+address[1] => altsyncram:ram_block.address_a[1]
+address[2] => altsyncram:ram_block.address_a[2]
+address[3] => altsyncram:ram_block.address_a[3]
+address[4] => altsyncram:ram_block.address_a[4]
+address[5] => altsyncram:ram_block.address_a[5]
+address[6] => altsyncram:ram_block.address_a[6]
+address[7] => altsyncram:ram_block.address_a[7]
+clocki => altsyncram:ram_block.clock0
+clocko => altsyncram:ram_block.clock1
+be => _.IN1
+q[0] <= altsyncram:ram_block.q_a[0]
+q[1] <= altsyncram:ram_block.q_a[1]
+q[2] <= altsyncram:ram_block.q_a[2]
+q[3] <= altsyncram:ram_block.q_a[3]
+q[4] <= altsyncram:ram_block.q_a[4]
+q[5] <= altsyncram:ram_block.q_a[5]
+q[6] <= altsyncram:ram_block.q_a[6]
+q[7] <= altsyncram:ram_block.q_a[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_One|altram:sram|altsyncram:ram_block
+wren_a => altsyncram_e1a1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_e1a1:auto_generated.data_a[0]
+data_a[1] => altsyncram_e1a1:auto_generated.data_a[1]
+data_a[2] => altsyncram_e1a1:auto_generated.data_a[2]
+data_a[3] => altsyncram_e1a1:auto_generated.data_a[3]
+data_a[4] => altsyncram_e1a1:auto_generated.data_a[4]
+data_a[5] => altsyncram_e1a1:auto_generated.data_a[5]
+data_a[6] => altsyncram_e1a1:auto_generated.data_a[6]
+data_a[7] => altsyncram_e1a1:auto_generated.data_a[7]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_e1a1:auto_generated.address_a[0]
+address_a[1] => altsyncram_e1a1:auto_generated.address_a[1]
+address_a[2] => altsyncram_e1a1:auto_generated.address_a[2]
+address_a[3] => altsyncram_e1a1:auto_generated.address_a[3]
+address_a[4] => altsyncram_e1a1:auto_generated.address_a[4]
+address_a[5] => altsyncram_e1a1:auto_generated.address_a[5]
+address_a[6] => altsyncram_e1a1:auto_generated.address_a[6]
+address_a[7] => altsyncram_e1a1:auto_generated.address_a[7]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_e1a1:auto_generated.clock0
+clock1 => altsyncram_e1a1:auto_generated.clock1
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_e1a1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_e1a1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_e1a1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_e1a1:auto_generated.q_a[3]
+q_a[4] <= altsyncram_e1a1:auto_generated.q_a[4]
+q_a[5] <= altsyncram_e1a1:auto_generated.q_a[5]
+q_a[6] <= altsyncram_e1a1:auto_generated.q_a[6]
+q_a[7] <= altsyncram_e1a1:auto_generated.q_a[7]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[0] => ram_block1a4.PORTAADDR
+address_a[0] => ram_block1a5.PORTAADDR
+address_a[0] => ram_block1a6.PORTAADDR
+address_a[0] => ram_block1a7.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[1] => ram_block1a4.PORTAADDR1
+address_a[1] => ram_block1a5.PORTAADDR1
+address_a[1] => ram_block1a6.PORTAADDR1
+address_a[1] => ram_block1a7.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[2] => ram_block1a4.PORTAADDR2
+address_a[2] => ram_block1a5.PORTAADDR2
+address_a[2] => ram_block1a6.PORTAADDR2
+address_a[2] => ram_block1a7.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[3] => ram_block1a4.PORTAADDR3
+address_a[3] => ram_block1a5.PORTAADDR3
+address_a[3] => ram_block1a6.PORTAADDR3
+address_a[3] => ram_block1a7.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+address_a[4] => ram_block1a4.PORTAADDR4
+address_a[4] => ram_block1a5.PORTAADDR4
+address_a[4] => ram_block1a6.PORTAADDR4
+address_a[4] => ram_block1a7.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[5] => ram_block1a1.PORTAADDR5
+address_a[5] => ram_block1a2.PORTAADDR5
+address_a[5] => ram_block1a3.PORTAADDR5
+address_a[5] => ram_block1a4.PORTAADDR5
+address_a[5] => ram_block1a5.PORTAADDR5
+address_a[5] => ram_block1a6.PORTAADDR5
+address_a[5] => ram_block1a7.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+address_a[6] => ram_block1a1.PORTAADDR6
+address_a[6] => ram_block1a2.PORTAADDR6
+address_a[6] => ram_block1a3.PORTAADDR6
+address_a[6] => ram_block1a4.PORTAADDR6
+address_a[6] => ram_block1a5.PORTAADDR6
+address_a[6] => ram_block1a6.PORTAADDR6
+address_a[6] => ram_block1a7.PORTAADDR6
+address_a[7] => ram_block1a0.PORTAADDR7
+address_a[7] => ram_block1a1.PORTAADDR7
+address_a[7] => ram_block1a2.PORTAADDR7
+address_a[7] => ram_block1a3.PORTAADDR7
+address_a[7] => ram_block1a4.PORTAADDR7
+address_a[7] => ram_block1a5.PORTAADDR7
+address_a[7] => ram_block1a6.PORTAADDR7
+address_a[7] => ram_block1a7.PORTAADDR7
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+clock0 => ram_block1a4.CLK0
+clock0 => ram_block1a5.CLK0
+clock0 => ram_block1a6.CLK0
+clock0 => ram_block1a7.CLK0
+clock1 => ram_block1a0.CLK1
+clock1 => ram_block1a1.CLK1
+clock1 => ram_block1a2.CLK1
+clock1 => ram_block1a3.CLK1
+clock1 => ram_block1a4.CLK1
+clock1 => ram_block1a5.CLK1
+clock1 => ram_block1a6.CLK1
+clock1 => ram_block1a7.CLK1
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+data_a[4] => ram_block1a4.PORTADATAIN
+data_a[5] => ram_block1a5.PORTADATAIN
+data_a[6] => ram_block1a6.PORTADATAIN
+data_a[7] => ram_block1a7.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+q_a[4] <= ram_block1a4.PORTADATAOUT
+q_a[5] <= ram_block1a5.PORTADATAOUT
+q_a[6] <= ram_block1a6.PORTADATAOUT
+q_a[7] <= ram_block1a7.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+wren_a => ram_block1a4.PORTAWE
+wren_a => ram_block1a5.PORTAWE
+wren_a => ram_block1a6.PORTAWE
+wren_a => ram_block1a7.PORTAWE
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Two
+data[0] => altram:sram.data[0]
+data[1] => altram:sram.data[1]
+data[2] => altram:sram.data[2]
+data[3] => altram:sram.data[3]
+data[4] => altram:sram.data[4]
+data[5] => altram:sram.data[5]
+data[6] => altram:sram.data[6]
+data[7] => altram:sram.data[7]
+address[0] => altram:sram.address[0]
+address[1] => altram:sram.address[1]
+address[2] => altram:sram.address[2]
+address[3] => altram:sram.address[3]
+address[4] => altram:sram.address[4]
+address[5] => altram:sram.address[5]
+address[6] => altram:sram.address[6]
+address[7] => altram:sram.address[7]
+inclock => altram:sram.clocki
+outclock => altram:sram.clocko
+we => altram:sram.we
+q[0] <= altram:sram.q[0]
+q[1] <= altram:sram.q[1]
+q[2] <= altram:sram.q[2]
+q[3] <= altram:sram.q[3]
+q[4] <= altram:sram.q[4]
+q[5] <= altram:sram.q[5]
+q[6] <= altram:sram.q[6]
+q[7] <= altram:sram.q[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Two|altram:sram
+we => _.IN0
+data[0] => altsyncram:ram_block.data_a[0]
+data[1] => altsyncram:ram_block.data_a[1]
+data[2] => altsyncram:ram_block.data_a[2]
+data[3] => altsyncram:ram_block.data_a[3]
+data[4] => altsyncram:ram_block.data_a[4]
+data[5] => altsyncram:ram_block.data_a[5]
+data[6] => altsyncram:ram_block.data_a[6]
+data[7] => altsyncram:ram_block.data_a[7]
+address[0] => altsyncram:ram_block.address_a[0]
+address[1] => altsyncram:ram_block.address_a[1]
+address[2] => altsyncram:ram_block.address_a[2]
+address[3] => altsyncram:ram_block.address_a[3]
+address[4] => altsyncram:ram_block.address_a[4]
+address[5] => altsyncram:ram_block.address_a[5]
+address[6] => altsyncram:ram_block.address_a[6]
+address[7] => altsyncram:ram_block.address_a[7]
+clocki => altsyncram:ram_block.clock0
+clocko => altsyncram:ram_block.clock1
+be => _.IN1
+q[0] <= altsyncram:ram_block.q_a[0]
+q[1] <= altsyncram:ram_block.q_a[1]
+q[2] <= altsyncram:ram_block.q_a[2]
+q[3] <= altsyncram:ram_block.q_a[3]
+q[4] <= altsyncram:ram_block.q_a[4]
+q[5] <= altsyncram:ram_block.q_a[5]
+q[6] <= altsyncram:ram_block.q_a[6]
+q[7] <= altsyncram:ram_block.q_a[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Two|altram:sram|altsyncram:ram_block
+wren_a => altsyncram_e1a1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_e1a1:auto_generated.data_a[0]
+data_a[1] => altsyncram_e1a1:auto_generated.data_a[1]
+data_a[2] => altsyncram_e1a1:auto_generated.data_a[2]
+data_a[3] => altsyncram_e1a1:auto_generated.data_a[3]
+data_a[4] => altsyncram_e1a1:auto_generated.data_a[4]
+data_a[5] => altsyncram_e1a1:auto_generated.data_a[5]
+data_a[6] => altsyncram_e1a1:auto_generated.data_a[6]
+data_a[7] => altsyncram_e1a1:auto_generated.data_a[7]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_e1a1:auto_generated.address_a[0]
+address_a[1] => altsyncram_e1a1:auto_generated.address_a[1]
+address_a[2] => altsyncram_e1a1:auto_generated.address_a[2]
+address_a[3] => altsyncram_e1a1:auto_generated.address_a[3]
+address_a[4] => altsyncram_e1a1:auto_generated.address_a[4]
+address_a[5] => altsyncram_e1a1:auto_generated.address_a[5]
+address_a[6] => altsyncram_e1a1:auto_generated.address_a[6]
+address_a[7] => altsyncram_e1a1:auto_generated.address_a[7]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_e1a1:auto_generated.clock0
+clock1 => altsyncram_e1a1:auto_generated.clock1
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_e1a1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_e1a1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_e1a1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_e1a1:auto_generated.q_a[3]
+q_a[4] <= altsyncram_e1a1:auto_generated.q_a[4]
+q_a[5] <= altsyncram_e1a1:auto_generated.q_a[5]
+q_a[6] <= altsyncram_e1a1:auto_generated.q_a[6]
+q_a[7] <= altsyncram_e1a1:auto_generated.q_a[7]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[0] => ram_block1a4.PORTAADDR
+address_a[0] => ram_block1a5.PORTAADDR
+address_a[0] => ram_block1a6.PORTAADDR
+address_a[0] => ram_block1a7.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[1] => ram_block1a4.PORTAADDR1
+address_a[1] => ram_block1a5.PORTAADDR1
+address_a[1] => ram_block1a6.PORTAADDR1
+address_a[1] => ram_block1a7.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[2] => ram_block1a4.PORTAADDR2
+address_a[2] => ram_block1a5.PORTAADDR2
+address_a[2] => ram_block1a6.PORTAADDR2
+address_a[2] => ram_block1a7.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[3] => ram_block1a4.PORTAADDR3
+address_a[3] => ram_block1a5.PORTAADDR3
+address_a[3] => ram_block1a6.PORTAADDR3
+address_a[3] => ram_block1a7.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+address_a[4] => ram_block1a4.PORTAADDR4
+address_a[4] => ram_block1a5.PORTAADDR4
+address_a[4] => ram_block1a6.PORTAADDR4
+address_a[4] => ram_block1a7.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[5] => ram_block1a1.PORTAADDR5
+address_a[5] => ram_block1a2.PORTAADDR5
+address_a[5] => ram_block1a3.PORTAADDR5
+address_a[5] => ram_block1a4.PORTAADDR5
+address_a[5] => ram_block1a5.PORTAADDR5
+address_a[5] => ram_block1a6.PORTAADDR5
+address_a[5] => ram_block1a7.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+address_a[6] => ram_block1a1.PORTAADDR6
+address_a[6] => ram_block1a2.PORTAADDR6
+address_a[6] => ram_block1a3.PORTAADDR6
+address_a[6] => ram_block1a4.PORTAADDR6
+address_a[6] => ram_block1a5.PORTAADDR6
+address_a[6] => ram_block1a6.PORTAADDR6
+address_a[6] => ram_block1a7.PORTAADDR6
+address_a[7] => ram_block1a0.PORTAADDR7
+address_a[7] => ram_block1a1.PORTAADDR7
+address_a[7] => ram_block1a2.PORTAADDR7
+address_a[7] => ram_block1a3.PORTAADDR7
+address_a[7] => ram_block1a4.PORTAADDR7
+address_a[7] => ram_block1a5.PORTAADDR7
+address_a[7] => ram_block1a6.PORTAADDR7
+address_a[7] => ram_block1a7.PORTAADDR7
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+clock0 => ram_block1a4.CLK0
+clock0 => ram_block1a5.CLK0
+clock0 => ram_block1a6.CLK0
+clock0 => ram_block1a7.CLK0
+clock1 => ram_block1a0.CLK1
+clock1 => ram_block1a1.CLK1
+clock1 => ram_block1a2.CLK1
+clock1 => ram_block1a3.CLK1
+clock1 => ram_block1a4.CLK1
+clock1 => ram_block1a5.CLK1
+clock1 => ram_block1a6.CLK1
+clock1 => ram_block1a7.CLK1
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+data_a[4] => ram_block1a4.PORTADATAIN
+data_a[5] => ram_block1a5.PORTADATAIN
+data_a[6] => ram_block1a6.PORTADATAIN
+data_a[7] => ram_block1a7.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+q_a[4] <= ram_block1a4.PORTADATAOUT
+q_a[5] <= ram_block1a5.PORTADATAOUT
+q_a[6] <= ram_block1a6.PORTADATAOUT
+q_a[7] <= ram_block1a7.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+wren_a => ram_block1a4.PORTAWE
+wren_a => ram_block1a5.PORTAWE
+wren_a => ram_block1a6.PORTAWE
+wren_a => ram_block1a7.PORTAWE
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Three
+data[0] => altram:sram.data[0]
+data[1] => altram:sram.data[1]
+data[2] => altram:sram.data[2]
+data[3] => altram:sram.data[3]
+data[4] => altram:sram.data[4]
+data[5] => altram:sram.data[5]
+data[6] => altram:sram.data[6]
+data[7] => altram:sram.data[7]
+address[0] => altram:sram.address[0]
+address[1] => altram:sram.address[1]
+address[2] => altram:sram.address[2]
+address[3] => altram:sram.address[3]
+address[4] => altram:sram.address[4]
+address[5] => altram:sram.address[5]
+address[6] => altram:sram.address[6]
+address[7] => altram:sram.address[7]
+inclock => altram:sram.clocki
+outclock => altram:sram.clocko
+we => altram:sram.we
+q[0] <= altram:sram.q[0]
+q[1] <= altram:sram.q[1]
+q[2] <= altram:sram.q[2]
+q[3] <= altram:sram.q[3]
+q[4] <= altram:sram.q[4]
+q[5] <= altram:sram.q[5]
+q[6] <= altram:sram.q[6]
+q[7] <= altram:sram.q[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Three|altram:sram
+we => _.IN0
+data[0] => altsyncram:ram_block.data_a[0]
+data[1] => altsyncram:ram_block.data_a[1]
+data[2] => altsyncram:ram_block.data_a[2]
+data[3] => altsyncram:ram_block.data_a[3]
+data[4] => altsyncram:ram_block.data_a[4]
+data[5] => altsyncram:ram_block.data_a[5]
+data[6] => altsyncram:ram_block.data_a[6]
+data[7] => altsyncram:ram_block.data_a[7]
+address[0] => altsyncram:ram_block.address_a[0]
+address[1] => altsyncram:ram_block.address_a[1]
+address[2] => altsyncram:ram_block.address_a[2]
+address[3] => altsyncram:ram_block.address_a[3]
+address[4] => altsyncram:ram_block.address_a[4]
+address[5] => altsyncram:ram_block.address_a[5]
+address[6] => altsyncram:ram_block.address_a[6]
+address[7] => altsyncram:ram_block.address_a[7]
+clocki => altsyncram:ram_block.clock0
+clocko => altsyncram:ram_block.clock1
+be => _.IN1
+q[0] <= altsyncram:ram_block.q_a[0]
+q[1] <= altsyncram:ram_block.q_a[1]
+q[2] <= altsyncram:ram_block.q_a[2]
+q[3] <= altsyncram:ram_block.q_a[3]
+q[4] <= altsyncram:ram_block.q_a[4]
+q[5] <= altsyncram:ram_block.q_a[5]
+q[6] <= altsyncram:ram_block.q_a[6]
+q[7] <= altsyncram:ram_block.q_a[7]
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Three|altram:sram|altsyncram:ram_block
+wren_a => altsyncram_e1a1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_e1a1:auto_generated.data_a[0]
+data_a[1] => altsyncram_e1a1:auto_generated.data_a[1]
+data_a[2] => altsyncram_e1a1:auto_generated.data_a[2]
+data_a[3] => altsyncram_e1a1:auto_generated.data_a[3]
+data_a[4] => altsyncram_e1a1:auto_generated.data_a[4]
+data_a[5] => altsyncram_e1a1:auto_generated.data_a[5]
+data_a[6] => altsyncram_e1a1:auto_generated.data_a[6]
+data_a[7] => altsyncram_e1a1:auto_generated.data_a[7]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_e1a1:auto_generated.address_a[0]
+address_a[1] => altsyncram_e1a1:auto_generated.address_a[1]
+address_a[2] => altsyncram_e1a1:auto_generated.address_a[2]
+address_a[3] => altsyncram_e1a1:auto_generated.address_a[3]
+address_a[4] => altsyncram_e1a1:auto_generated.address_a[4]
+address_a[5] => altsyncram_e1a1:auto_generated.address_a[5]
+address_a[6] => altsyncram_e1a1:auto_generated.address_a[6]
+address_a[7] => altsyncram_e1a1:auto_generated.address_a[7]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_e1a1:auto_generated.clock0
+clock1 => altsyncram_e1a1:auto_generated.clock1
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_e1a1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_e1a1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_e1a1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_e1a1:auto_generated.q_a[3]
+q_a[4] <= altsyncram_e1a1:auto_generated.q_a[4]
+q_a[5] <= altsyncram_e1a1:auto_generated.q_a[5]
+q_a[6] <= altsyncram_e1a1:auto_generated.q_a[6]
+q_a[7] <= altsyncram_e1a1:auto_generated.q_a[7]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|muxPC|Memoria:Mem|LPM_RAM_DQ:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[0] => ram_block1a3.PORTAADDR
+address_a[0] => ram_block1a4.PORTAADDR
+address_a[0] => ram_block1a5.PORTAADDR
+address_a[0] => ram_block1a6.PORTAADDR
+address_a[0] => ram_block1a7.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[1] => ram_block1a3.PORTAADDR1
+address_a[1] => ram_block1a4.PORTAADDR1
+address_a[1] => ram_block1a5.PORTAADDR1
+address_a[1] => ram_block1a6.PORTAADDR1
+address_a[1] => ram_block1a7.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[2] => ram_block1a3.PORTAADDR2
+address_a[2] => ram_block1a4.PORTAADDR2
+address_a[2] => ram_block1a5.PORTAADDR2
+address_a[2] => ram_block1a6.PORTAADDR2
+address_a[2] => ram_block1a7.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[3] => ram_block1a3.PORTAADDR3
+address_a[3] => ram_block1a4.PORTAADDR3
+address_a[3] => ram_block1a5.PORTAADDR3
+address_a[3] => ram_block1a6.PORTAADDR3
+address_a[3] => ram_block1a7.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[4] => ram_block1a3.PORTAADDR4
+address_a[4] => ram_block1a4.PORTAADDR4
+address_a[4] => ram_block1a5.PORTAADDR4
+address_a[4] => ram_block1a6.PORTAADDR4
+address_a[4] => ram_block1a7.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[5] => ram_block1a1.PORTAADDR5
+address_a[5] => ram_block1a2.PORTAADDR5
+address_a[5] => ram_block1a3.PORTAADDR5
+address_a[5] => ram_block1a4.PORTAADDR5
+address_a[5] => ram_block1a5.PORTAADDR5
+address_a[5] => ram_block1a6.PORTAADDR5
+address_a[5] => ram_block1a7.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+address_a[6] => ram_block1a1.PORTAADDR6
+address_a[6] => ram_block1a2.PORTAADDR6
+address_a[6] => ram_block1a3.PORTAADDR6
+address_a[6] => ram_block1a4.PORTAADDR6
+address_a[6] => ram_block1a5.PORTAADDR6
+address_a[6] => ram_block1a6.PORTAADDR6
+address_a[6] => ram_block1a7.PORTAADDR6
+address_a[7] => ram_block1a0.PORTAADDR7
+address_a[7] => ram_block1a1.PORTAADDR7
+address_a[7] => ram_block1a2.PORTAADDR7
+address_a[7] => ram_block1a3.PORTAADDR7
+address_a[7] => ram_block1a4.PORTAADDR7
+address_a[7] => ram_block1a5.PORTAADDR7
+address_a[7] => ram_block1a6.PORTAADDR7
+address_a[7] => ram_block1a7.PORTAADDR7
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+clock0 => ram_block1a3.CLK0
+clock0 => ram_block1a4.CLK0
+clock0 => ram_block1a5.CLK0
+clock0 => ram_block1a6.CLK0
+clock0 => ram_block1a7.CLK0
+clock1 => ram_block1a0.CLK1
+clock1 => ram_block1a1.CLK1
+clock1 => ram_block1a2.CLK1
+clock1 => ram_block1a3.CLK1
+clock1 => ram_block1a4.CLK1
+clock1 => ram_block1a5.CLK1
+clock1 => ram_block1a6.CLK1
+clock1 => ram_block1a7.CLK1
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+data_a[3] => ram_block1a3.PORTADATAIN
+data_a[4] => ram_block1a4.PORTADATAIN
+data_a[5] => ram_block1a5.PORTADATAIN
+data_a[6] => ram_block1a6.PORTADATAIN
+data_a[7] => ram_block1a7.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+q_a[3] <= ram_block1a3.PORTADATAOUT
+q_a[4] <= ram_block1a4.PORTADATAOUT
+q_a[5] <= ram_block1a5.PORTADATAOUT
+q_a[6] <= ram_block1a6.PORTADATAOUT
+q_a[7] <= ram_block1a7.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
+wren_a => ram_block1a3.PORTAWE
+wren_a => ram_block1a4.PORTAWE
+wren_a => ram_block1a5.PORTAWE
+wren_a => ram_block1a6.PORTAWE
+wren_a => ram_block1a7.PORTAWE
+
+
