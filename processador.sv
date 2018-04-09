@@ -1,5 +1,4 @@
 module processador(input logic clock);
-
 logic [31:0] pc_address;
 logic [31:0] result;
 
@@ -27,22 +26,8 @@ enum logic[5:0]
  BREAK = 6'b000111
  } operate;
  
- Registrador PC(.Clk(),
-				.Entrada(pc_address),
-				.Saida(pc_address),
-				.Reset(),
-				.Load());
+ PC pece(.clock(),
+		 .r_l(),
+		 .pc_address(pc_address));
 			
-Ula32 Ula(.A(pc_address),
-			.B(2'd4),
-			.Seletor(3'b001));
-
-reg h = 0;
-		
-MuxPC muxe(.A(pc_adress),
-			 .B(pc_adress),
-			 .IorD(h));
-			 
-
 endmodule:processador
-

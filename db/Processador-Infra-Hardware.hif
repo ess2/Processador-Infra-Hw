@@ -74,7 +74,7 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Memoria:Mem
+|
 }
 # lmf
 |users|rose|desktop|quartus|quartus|lmf|maxplus2.lmf
@@ -234,10 +234,10 @@ ADDRESS0
 3
 }
 # hierarchies {
-Memoria:Mem|lpm_ram_dq:MEM
-Memoria:Mem|lpm_ram_dq:MEM_plus_One
-Memoria:Mem|lpm_ram_dq:MEM_plus_Two
-Memoria:Mem|lpm_ram_dq:MEM_plus_Three
+lpm_ram_dq:MEM
+lpm_ram_dq:MEM_plus_One
+lpm_ram_dq:MEM_plus_Two
+lpm_ram_dq:MEM_plus_Three
 }
 # macro_sequence
 
@@ -402,10 +402,10 @@ address0
 3
 }
 # hierarchies {
-Memoria:Mem|lpm_ram_dq:MEM|altram:sram
-Memoria:Mem|lpm_ram_dq:MEM_plus_One|altram:sram
-Memoria:Mem|lpm_ram_dq:MEM_plus_Two|altram:sram
-Memoria:Mem|lpm_ram_dq:MEM_plus_Three|altram:sram
+lpm_ram_dq:MEM|altram:sram
+lpm_ram_dq:MEM_plus_One|altram:sram
+lpm_ram_dq:MEM_plus_Two|altram:sram
+lpm_ram_dq:MEM_plus_Three|altram:sram
 }
 # macro_sequence
 
@@ -706,10 +706,10 @@ address_a0
 3
 }
 # hierarchies {
-Memoria:Mem|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block
-Memoria:Mem|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block
-Memoria:Mem|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block
-Memoria:Mem|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block
+lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block
+lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block
+lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block
+lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block
 }
 # macro_sequence
 
@@ -812,10 +812,10 @@ instrucoes.mif
 0
 }
 # hierarchies {
-Memoria:Mem|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
-Memoria:Mem|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
-Memoria:Mem|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
-Memoria:Mem|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
+lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated
 }
 # macro_sequence
 
@@ -853,8 +853,8 @@ a36c8ec425c8a2589af98b2d4daabc3
 # entity
 muxPC
 # storage
-db|Processador-Infra-Hardware.(0).cnf
-db|Processador-Infra-Hardware.(0).cnf
+db|Processador-Infra-Hardware.(1).cnf
+db|Processador-Infra-Hardware.(1).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -862,7 +862,7 @@ ON
 # case_sensitive
 # source_file
 muxpc.sv
-a2c63417ebaacf50a695ce37a9e2d77
+7de13c7f4c9298a267c7c9daf5b9
 9
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -879,9 +879,6 @@ VERILOG_CONSTANT_LOOP_LIMIT
 5000
 VERILOG_NON_CONSTANT_LOOP_LIMIT
 250
-}
-# hierarchies {
-|
 }
 # macro_sequence
 
@@ -889,8 +886,8 @@ VERILOG_NON_CONSTANT_LOOP_LIMIT
 # entity
 mux
 # storage
-db|Processador-Infra-Hardware.(1).cnf
-db|Processador-Infra-Hardware.(1).cnf
+db|Processador-Infra-Hardware.(9).cnf
+db|Processador-Infra-Hardware.(9).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -898,7 +895,7 @@ ON
 # case_sensitive
 # source_file
 muxpc.sv
-a2c63417ebaacf50a695ce37a9e2d77
+7de13c7f4c9298a267c7c9daf5b9
 9
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -916,39 +913,38 @@ VERILOG_CONSTANT_LOOP_LIMIT
 VERILOG_NON_CONSTANT_LOOP_LIMIT
 250
 }
-# hierarchies {
-mux:func0
-mux:func1
-mux:func2
-mux:func3
-mux:func4
-mux:func5
-mux:func6
-mux:func7
-mux:func8
-mux:func9
-mux:func10
-mux:func11
-mux:func12
-mux:func13
-mux:func14
-mux:func15
-mux:func16
-mux:func17
-mux:func18
-mux:func19
-mux:func20
-mux:func21
-mux:func22
-mux:func23
-mux:func24
-mux:func25
-mux:func26
-mux:func27
-mux:func28
-mux:func29
-mux:func30
-mux:func31
+# macro_sequence
+
+# end
+# entity
+PC
+# storage
+db|Processador-Infra-Hardware.(0).cnf
+db|Processador-Infra-Hardware.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+pc.sv
+7b85ec87a5f96e75e52d4ad77b5a7f84
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
 }
 # macro_sequence
 

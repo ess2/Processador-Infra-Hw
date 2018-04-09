@@ -36,7 +36,9 @@ mux func30(Out[30],A[30],B[30],IorD);
 mux func31(Out[31],A[31],B[31],IorD);
 
 Memoria Mem(.Address(Out),
-			.Clock(1));
+			.Clock(),
+			.Wr(0),
+			.Datain());
 
 endmodule:muxPC
 
@@ -44,9 +46,9 @@ module mux
 (output logic Out,
  input logic A, B, IorD);
  
- and #2 o1(Out1,A, n_sel),
-		o2(Out2,B, sel);
- or #2 o3(Out,Out1,Out2);		
- not #2 o4(n_sel,sel);
- 
+ not #2 o4(n_IorD,IorD);
+ and #2 o1(Out1,A, n_IorD),
+		o2(Out2,B, IorD);
+ or #2 o3(Out,Out1,Out2);
+
 endmodule: mux 
