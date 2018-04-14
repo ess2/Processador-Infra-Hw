@@ -1,0 +1,49 @@
+module muxRegA(output logic [31:0] Out,
+			 input logic [31:0] A, B, 
+			 input logic IorD);
+
+mux func0(Out[0],A[0],B[0],IorD);
+mux func1(Out[1],A[1],B[1],IorD);
+mux func2(Out[2],A[2],B[2],IorD);
+mux func3(Out[3],A[3],B[3],IorD);
+mux func4(Out[4],A[4],B[4],IorD);
+mux func5(Out[5],A[5],B[5],IorD);
+mux func6(Out[6],A[6],B[6],IorD);
+mux func7(Out[7],A[7],B[7],IorD);
+mux func8(Out[8],A[8],B[8],IorD);
+mux func9(Out[9],A[9],B[9],IorD);
+mux func10(Out[10],A[10],B[10],IorD);
+mux func11(Out[11],A[11],B[11],IorD);
+mux func12(Out[12],A[12],B[12],IorD);
+mux func13(Out[13],A[13],B[13],IorD);
+mux func14(Out[14],A[14],B[14],IorD);
+mux func15(Out[15],A[15],B[15],IorD);
+mux func16(Out[16],A[16],B[16],IorD);
+mux func17(Out[17],A[17],B[17],IorD);
+mux func18(Out[18],A[18],B[18],IorD);
+mux func19(Out[19],A[19],B[19],IorD);
+mux func20(Out[20],A[20],B[20],IorD);
+mux func21(Out[21],A[21],B[21],IorD);
+mux func22(Out[22],A[22],B[22],IorD);
+mux func23(Out[23],A[23],B[23],IorD);
+mux func24(Out[24],A[24],B[24],IorD);
+mux func25(Out[25],A[25],B[25],IorD);
+mux func26(Out[26],A[26],B[26],IorD);
+mux func27(Out[27],A[27],B[27],IorD);
+mux func28(Out[28],A[28],B[28],IorD);
+mux func29(Out[29],A[29],B[29],IorD);
+mux func30(Out[30],A[30],B[30],IorD);
+mux func31(Out[31],A[31],B[31],IorD);
+
+endmodule:muxPC
+
+module mux
+(output logic Out,
+ input logic A, B, IorD);
+ 
+ not #2 o4(n_IorD,IorD);
+ and #2 o1(Out1,A, n_IorD),
+		o2(Out2,B, IorD);
+ or #2 o3(Out,Out1,Out2);
+
+endmodule: mux 

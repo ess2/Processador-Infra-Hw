@@ -13,11 +13,7 @@ always_comb begin
 	AluOP = 2'b0;
 end
 
- Registrador PCRegister(.Clk(),
-						.Entrada(pc_address),
-						.Saida(),
-						.Reset(),
-						.Load(1));
+
 						
 enum {StateA,StateB} state, nextState;
 

@@ -35,11 +35,6 @@ mux func29(Out[29],A[29],B[29],IorD);
 mux func30(Out[30],A[30],B[30],IorD);
 mux func31(Out[31],A[31],B[31],IorD);
 
-Memoria Mem(.Address(Out),
-			.Clock(),
-			.Wr(0),
-			.Datain());
-
 endmodule:muxPC
 
 module mux

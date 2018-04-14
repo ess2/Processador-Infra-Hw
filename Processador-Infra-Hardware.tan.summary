@@ -2,44 +2,24 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 8.677 ns
-From           : Address[1]
-To             : lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated|ram_block1a0~porta_address_reg5
-From Clock     : --
-To Clock       : Clock
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 8.394 ns
-From           : lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated|q_a[2]
-To             : Dataout[18]
-From Clock     : Clock
+Actual Time    : 15.522 ns
+From           : Registrador:PCRegister|Saida[3]
+To             : AluOut[31]
+From Clock     : clock
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Worst-case th
+Type           : Clock Setup: 'clock'
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.879 ns
-From           : Datain[26]
-To             : lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated|ram_block1a0~porta_datain_reg2
-From Clock     : --
-To Clock       : Clock
-Failed Paths   : 0
-
-Type           : Clock Setup: 'Clock'
-Slack          : N/A
-Required Time  : None
-Actual Time    : Restricted to 195.01 MHz ( period = 5.128 ns )
-From           : lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated|ram_block1a0~porta_address_reg5
-To             : lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_e1a1:auto_generated|q_a[1]
-From Clock     : Clock
-To Clock       : Clock
+Actual Time    : 181.82 MHz ( period = 5.500 ns )
+From           : Registrador:PCRegister|Saida[3]
+To             : Registrador:PCRegister|Saida[28]
+From Clock     : clock
+To Clock       : clock
 Failed Paths   : 0
 
 Type           : Total number of failed paths
